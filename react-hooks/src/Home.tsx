@@ -2,9 +2,14 @@ import { Link } from "react-router-dom"
 
 export const Home = () => {
   return (
-    <div className="App">
-      <h1>React Hooks</h1>
-      <Link to="/useState">useState</Link>
-    </div>
+    <>
+      <div>
+        <h1>React Hooks Sample</h1>
+        <ul>
+          <li><Link to="/useState">useState Sample</Link></li>
+          {/* <li><Link to="/"></Link></li> */}
+        </ul>
+      </div>
+    </>
   )
 }

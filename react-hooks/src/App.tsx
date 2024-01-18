@@ -5,19 +5,19 @@ import {
   Route,
   Link,
   } from "react-router-dom";
-import { UseStateComponent } from './hooks/useStateComponent';
+import { UseStateSample } from './components/react-hooks/useStateSample';
 import { Home } from './Home';
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/useState" element={<UseStateComponent />} />
+          <Route path="/useState" element={<UseStateSample />} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 
