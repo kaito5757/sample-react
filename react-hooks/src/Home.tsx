@@ -7,6 +7,7 @@ export const Home = () => {
         <h1>React Hooks Sample</h1>
         <ul>
           <li><Link to="/useState">useState Sample</Link></li>
+          <li><Link to="/useReducer">useReducer Sample</Link></li>
           {/* <li><Link to="/"></Link></li> */}
         </ul>
       </div>

@@ -1,12 +1,12 @@
-import './App.css';
 import {
-  BrowserRouter as Router,
-  Routes,
   Route,
-  Link,
-  } from "react-router-dom";
-import { UseStateSample } from './components/react-hooks/useStateSample';
+  BrowserRouter as Router,
+  Routes
+} from "react-router-dom";
+import './App.css';
 import { Home } from './Home';
+import { UseReducerSample } from './components/react-hooks/useReducerSample';
+import { UseStateSample } from './components/react-hooks/useStateSample';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/useState" element={<UseStateSample />} />
+          <Route path="/useReducer" element={<UseReducerSample />} />
         </Routes>
       </Router>
     </div>
