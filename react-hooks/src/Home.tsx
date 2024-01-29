@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -6,11 +6,15 @@ export const Home = () => {
       <div>
         <h1>React Hooks Sample</h1>
         <ul>
-          <li><Link to="/useState">useState Sample</Link></li>
-          <li><Link to="/useReducer">useReducer Sample</Link></li>
+          <li>
+            <Link to="/useState">useState Sample</Link>
+          </li>
+          <li>
+            <Link to="/useReducer">useReducer Sample</Link>
+          </li>
           {/* <li><Link to="/"></Link></li> */}
         </ul>
       </div>
     </>
-  )
-}
+  );
+};
