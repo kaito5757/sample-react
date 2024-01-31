@@ -8,6 +8,9 @@ export const Home = () => {
         <li>
           <Link to="/Q1">Q1</Link>
         </li>
+        <li>
+          <Link to="/test">test</Link>
+        </li>
         {/* <li><Link to="/"></Link></li> */}
       </ul>
     </div>
